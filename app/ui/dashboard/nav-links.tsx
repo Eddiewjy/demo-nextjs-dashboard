@@ -11,13 +11,13 @@ import clsx from "clsx"; //clsx+usePathname实现路由跳转的同时改变样�
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { name: "Home", href: "/dashboard", icon: HomeIcon },
+  { name: "主页", href: "/dashboard", icon: HomeIcon },
   {
-    name: "Invoices",
+    name: "发票夹",
     href: "/dashboard/invoices",
     icon: DocumentDuplicateIcon,
   },
-  { name: "Customers", href: "/dashboard/customers", icon: UserGroupIcon },
+  { name: "顾客", href: "/dashboard/customers", icon: UserGroupIcon },
 ];
 
 export default function NavLinks() {
